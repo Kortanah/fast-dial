@@ -1,0 +1,19 @@
+{
+  "name": "flowdial-cloud-functions",
+  "version": "1.0.0",
+  "description": "FlowDial Cloud Functions for generic gate system",
+  "main": "index.js",
+  "scripts": {
+    "serve": "firebase serve --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions"
+  },
+  "engines": {
+    "node": "20"
+  },
+  "dependencies": {
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1"
+  }
+}

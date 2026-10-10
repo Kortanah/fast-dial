@@ -1,0 +1,334 @@
+<resources>
+    <string name="app_name">Fast Dial</string>
+    <string name="accessibility_service_description">Automatisations des interactions avec les menus USSD pour les flux créés dans Fast Dial.</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Accueil</string>
+    <string name="nav_library">Bibliothèque</string>
+    <string name="nav_templates">Modèles</string>
+    <string name="nav_settings">Paramètres</string>
+
+    <!-- Dashboard -->
+    <string name="welcome_back">Bienvenue</string>
+    <string name="overview_grid">Aperçu</string>
+    <string name="active_flows">Flux actifs</string>
+    <string name="todays_runs">Exécutions du jour</string>
+    <string name="most_used_flows">Flux les plus utilisés</string>
+    <string name="recent_flows">Flux récents</string>
+    <string name="see_all">Voir tout</string>
+    <string name="predefined_templates">Modèles prédéfinis</string>
+    <string name="browse_templates">Parcourir les modèles</string>
+    <string name="create_flow">Créer un flux</string>
+    <string name="select_network">Sélectionner un réseau</string>
+    <string name="no_network_available">Aucun réseau disponible</string>
+
+    <!-- Flow Library -->
+    <string name="flow_library_title">Bibliothèque de flux</string>
+    <string name="search_placeholder">Rechercher un flux...</string>
+    <string name="filter_all">Tous</string>
+    <string name="no_flows_found">Aucun flux trouvé</string>
+    <string name="no_flows_subtitle">Créez votre premier flux USSD automatisé pour commencer.</string>
+
+    <!-- Templates -->
+    <string name="flow_templates_title">Modèles de flux USSD</string>
+    <string name="preconfigured_workflows">Workflows préconfigurés pour les services mobiles populaires.</string>
+    <string name="country_region">Pays / Région</string>
+    <string name="preview">Aperçu</string>
+    <string name="use_template">Utiliser le modèle</string>
+    <string name="search_template">Rechercher un modèle...</string>
+    <string name="close">Fermer</string>
+
+    <!-- Flow Card Actions -->
+    <string name="execute_flow">Exécuter le flux</string>
+    <string name="edit_builder">Modifier le flux</string>
+    <string name="duplicate">Dupliquer</string>
+    <string name="delete_flow">Supprimer le flux</string>
+    <string name="runs_count">%1$d exécutions</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Paramètres de l\'application</string>
+    <string name="language_section">Langue / Language</string>
+    <string name="language_label">Langue de l\'application</string>
+    <string name="language_subtitle">Choisissez votre langue par défaut préférée pour l\'application</string>
+    <string name="language_english">English (🇬🇧)</string>
+    <string name="language_french">Français (🇫🇷)</string>
+    <string name="language_active_default">Langue par défaut de l\'application</string>
+    <string name="security_title">Sécurité &amp; Confidentialité</string>
+    <string name="auto_vault_label">Sécurisation automatique des données sensibles</string>
+    <string name="appearance_title">Apparence</string>
+    <string name="dark_mode_label">Thème Sombre</string>
+    <string name="settings_account">Compte</string>
+    <string name="sign_out">Se déconnecter</string>
+    <string name="delete_account">Supprimer le compte</string>
+    <string name="security_section">Sécurité</string>
+    <string name="security_notice">Avis de sécurité important : n\'enregistrez jamais votre code PIN ou votre mot de passe dans les flux USSD.</string>
+    <string name="appearance_section">Apparence</string>
+    <string name="dark_theme">Thème Sombre</string>
+    <string name="dark_theme_active">Thème sombre actif</string>
+    <string name="light_theme_active">Thème clair actif</string>
+    <string name="system_default_theme_active">Thème par défaut du système actif</string>
+    <string name="execution_tuning">Réglage du moteur d\'exécution</string>
+    <string name="default_timeout">Délai d\'expiration par défaut : %1$ds</string>
+    <string name="backup_portability">Sauvegarde et portabilité</string>
+    <string name="backup_subtitle">Transférez des flux vers un nouvel appareil ou sauvegardez vos flux personnalisés.</string>
+    <string name="export_flows">Exporter les flux</string>
+    <string name="import_flows">Importer les flux</string>
+    <string name="support_info">Support et informations</string>
+    <string name="help_center">Centre d\'aide et guide d\'automatisation USSD</string>
+    <string name="contact_us">Contactez-nous</string>
+    <string name="about_app">À propos de l\'application (v1.0)</string>
+    <string name="set_master_pin">Définir le code PIN principal à 4 chiffres</string>
+    <string name="enter_pin">Entrer le code PIN à 4 chiffres</string>
+    <string name="save_pin">Enregistrer le PIN</string>
+    <string name="cancel">Annuler</string>
+    <string name="ussd_automation_guide">Guide d\'automatisation USSD</string>
+    <string name="guide_intro">Comment créer et exécuter des automatisations USSD étape par étape :</string>
+    <string name="guide_step1">1. Code court d\'entrée : Démarre la session (ex : *170# pour Mobile Money ou *124# pour le solde).</string>
+    <string name="guide_step2">2. Étapes de sélection de menu : Sélectionne automatiquement les options numériques (ex : option \'1\' Transfert, \'2\' Airtime).</string>
+    <string name="guide_step3">3. Entrées utilisateur dynamiques : Demande les numéros de destinataire, montants ou détails de compte à la demande.</string>
+    <string name="guide_step4">4. Entrées PIN sécurisées : Saisit automatiquement les codes PIN d\'autorisation lors des transferts.</string>
+    <string name="guide_step5">5. Exécution automatisée : Exécute des sessions de codes courts en plusieurs étapes sans taper manuellement.</string>
+    <string name="got_it">Compris</string>
+    <string name="contact_support">Contacter le support</string>
+    <string name="contact_prompt">Besoin d\'aide ou des questions concernant vos automatisations USSD ?</string>
+    <string name="support_email">E-mail : stainstudios360@gmail.com</string>
+    <string name="support_availability">Notre équipe de support est disponible 24h/24 et 7j/7 pour vous aider.</string>
+    <string name="about_ussd_automation">À propos de l\'automatisation USSD (v1.0)</string>
+    <string name="about_ussd_body">L\'automatisation USSD est un moteur d\'automatisation de flux pour Android conçu pour simplifier les interactions par codes courts.\n\nIl permet d\'automatiser les transferts d\'argent mobile, l\'achat de forfaits internet, les services bancaires et les vérifications de solde sans effort.</string>
+    <string name="export_workflows">Exporter les flux</string>
+    <string name="export_prompt">Copiez les données de sauvegarde ci-dessous pour transférer vos flux personnalisés vers un autre appareil, ou téléchargez-les sous forme de fichier JSON :</string>
+    <string name="download_json_file">Télécharger le fichier JSON</string>
+    <string name="copy_code">Copier le code</string>
+    <string name="import_workflows">Importer les flux</string>
+    <string name="import_prompt">Téléchargez un fichier de sauvegarde JSON ou collez le texte JSON ci-dessous :</string>
+    <string name="upload_json_file">Télécharger un fichier JSON</string>
+    <string name="paste_json_placeholder">Ou collez le JSON ici...</string>
+    <string name="import_button_text">Importer</string>
+    <string name="delete_account_title">Supprimer le compte</string>
+    <string name="delete_account_confirmation">Êtes-vous sûr de vouloir supprimer votre compte ? Cette action est irréversible.</string>
+    <string name="delete">Supprimer</string>
+
+    <!-- Create Flow Screen & USSD Guide -->
+    <string name="create_new_flow_title">Créer un nouveau flux USSD</string>
+    <string name="flow_name_label">Nom du flux</string>
+    <string name="flow_name_placeholder">ex : Paiement de facture d\'électricité</string>
+    <string name="ussd_entry_code_label">Code d\'entrée USSD</string>
+    <string name="ussd_entry_code_placeholder">ex : *170#</string>
+    <string name="category_label">Catégorie</string>
+    <string name="custom_category_name_label">Nom de la catégorie personnalisée</string>
+    <string name="custom_category_placeholder">ex : Banque, Transport, Télévision</string>
+    <string name="error_empty_flow_name">Le nom du flux ne peut pas être vide.</string>
+    <string name="save_draft_button">Enregistrer le brouillon</string>
+    <string name="continue_button">Continuer</string>
+    <string name="how_to_build_title">Comment créer un flux USSD</string>
+    <string name="how_to_build_intro">L\'automatisation fonctionne en 3 étapes simples :</string>
+    <string name="how_to_build_step1">1️ Composer le code court (ex : *170#)\nCela ouvre le menu principal de votre opérateur de réseau.</string>
+    <string name="how_to_build_step2">2️ Sélection de menu (ex : Option 1)\nSaisit automatiquement le numéro de l\'option de menu souhaitée (par exemple, \'1\' pour Transfert ou \'2\' pour Airtime).</string>
+    <string name="how_to_build_step3">3️ Saisie utilisateur (ex : Téléphone du destinataire ou Montant)\nVous demande des informations telles que le numéro de téléphone ou le montant lors de l\'exécution du flux.</string>
+    <!-- Onboarding Screen -->
+    <string name="onboarding_title">Automatisez vos flux USSD</string>
+    <string name="onboarding_description">Créez des flux d\'automatisation USSD intelligents pour gagner du temps et éliminer la composition répétitive.</string>
+    <string name="get_started_button">Commencer</string>
+    <string name="already_have_account_sign_in">Vous avez déjà un compte ? Se connecter</string>
+    <!-- Google Auth & Single Sign-On -->
+    <string name="continue_with_google">Continuer avec Google</string>
+    <string name="or_divider">ou continuer avec l\'e-mail</string>
+    <string name="onboarding_profile_title">Complétez votre profil</string>
+    <string name="onboarding_profile_subtitle">Bienvenue sur Fast Dial ! Quelques détails pour personnaliser vos automatisations USSD.</string>
+    <string name="signed_in_as">Connecté en tant que : %1$s</string>
+    <string name="complete_setup_button">Terminer la configuration &amp; Démarrer</string>
+    <string name="switch_account_or_sign_out">Se déconnecter / Utiliser un autre compte</string>
+    <string name="unified_login_hint">Connectez-vous avec Google ou entrez votre email pour commencer instantanément.</string>
+    <!-- Login Screen -->
+    <string name="login_welcome_title">Bon retour parmi nous</string>
+    <string name="login_welcome_subtitle">Connectez-vous pour accéder à votre coffre-fort de flux USSD</string>
+    <string name="email_address_label">Adresse e-mail</string>
+    <string name="password_label">Mot de passe</string>
+    <string name="remember_me_label">Se souvenir de moi</string>
+    <string name="forgot_password_label">Mot de passe oublié ?</string>
+    <string name="error_invalid_credentials">Veuillez entrer des identifiants valides</string>
+    <string name="error_invalid_email">Veuillez entrer une adresse e-mail valide</string>
+    <string name="error_auth_failed">Échec de l\'authentification</string>
+    <string name="sign_in_button">Se connecter</string>
+    <string name="create_new_account_button">Créer un nouveau compte</string>
+    <!-- Register Screen -->
+    <string name="register_title">Créer un compte</string>
+    <string name="register_subtitle">Rejoignez-nous et commencez à automatiser vos flux</string>
+    <string name="full_name_label">Nom complet</string>
+    <string name="confirm_password_label">Confirmer le mot de passe</string>
+    <string name="terms_agreement_label">J\'accepte les Conditions d\'utilisation &amp; la Politique de confidentialité</string>
+    <string name="error_passwords_dont_match">Les mots de passe ne correspondent pas</string>
+    <string name="error_enter_name">Veuillez entrer votre nom</string>
+    <string name="error_password_too_short">Le mot de passe doit contenir au moins 6 caractères</string>
+    <string name="error_registration_failed">Échec de l\'inscription</string>
+    <string name="error_fill_all_fields">Veuillez remplir tous les champs</string>
+    <string name="error_invalid_phone_number">Veuillez entrer un numéro de téléphone valide</string>
+    <string name="sign_up_button">S\'inscrire</string>
+    <!-- Splash Screen -->
+    <string name="splash_subtitle">Automatisez vos processus USSD facilement</string>
+    <!-- Execution Screen & Contacts -->
+    <string name="entry_code_label">Entrée : %1$s</string>
+    <string name="exec_accessibility_inactive">Service d\'accessibilité inactif</string>
+    <string name="exec_accessibility_desc">Activez le \'Service d\'automatisation des flux USSD\' dans les paramètres Android pour automatiser la composition et l\'interaction avec les menus USSD.</string>
+    <string name="enable_button">Activer</string>
+    <string name="required_flow_inputs">Saisies de flux requises</string>
+    <string name="provide_values_desc">Fournissez des valeurs pour les étapes variables avant d\'exécuter le flux :</string>
+    <string name="hint_amount_or_number">Entrez le montant ou le numéro (ex : 50)</string>
+    <string name="hint_phone_number">Entrez le numéro de téléphone</string>
+    <string name="hint_text_value">Entrez la valeur du texte</string>
+    <string name="flow_running">Flux en cours d\'exécution...</string>
+    <string name="stop_button">Arrêter</string>
+    <string name="run_flow_button">Exécuter le flux</string>
+    <string name="error_fill_required_inputs">Veuillez remplir toutes les entrées requises : %1$s</string>
+    <string name="phone_contacts_title">Contacts téléphoniques</string>
+    <string name="contacts_permission_required">Autorisation d\'accès aux contacts requise</string>
+    <string name="contacts_permission_desc">Pour sélectionner des numéros directement depuis votre répertoire, veuillez autoriser l\'accès à vos contacts.</string>
+    <string name="grant_contacts_permission">Accorder l\'autorisation d\'accès</string>
+    <string name="search_contact_placeholder">Rechercher un contact</string>
+    <string name="recent_contacts">Contacts récents</string>
+    <string name="all_contacts">Tous les contacts</string>
+    <string name="no_contacts_matching">Aucun contact ne correspond à %1$s</string>
+    <string name="no_contacts_found">Aucun contact trouvé sur l\'appareil.</string>
+    <!-- Approval Pending Screen -->
+    <string name="approval_pending_title">Compte en attente d\'approbation</string>
+    <string name="approval_pending_desc">Votre compte a été enregistré avec succès, mais il doit être approuvé par un administrateur avant de pouvoir utiliser l\'application.</string>
+    <string name="logout_button">Se déconnecter</string>
+    <!-- Reset Password Screen -->
+    <string name="phone_label">Numéro de téléphone</string>
+    <string name="reset_password_title">Réinitialiser le mot de passe</string>
+    <string name="reset_password_desc">Entrez votre e-mail enregistré pour recevoir un lien de réinitialisation sécurisé</string>
+    <string name="error_failed_send_reset">Échec de l\'envoi du lien de réinitialisation</string>
+    <string name="instructions_sent_toast">Lien de réinitialisation envoyé !</string>
+    <string name="instructions_sent_message">Instructions de réinitialisation envoyées à %1$s</string>
+    <string name="send_reset_link_button">Envoyer le lien de réinitialisation</string>
+    <string name="back_to_sign_in_button">Retour à la connexion</string>
+    <!-- Flow Builder / Sequence Page -->
+    <string name="save_flow">Enregistrer le flux</string>
+    <string name="flow_step_sequence">Séquence d\'étapes de flux</string>
+    <string name="steps_count">%1$d Étapes</string>
+    <string name="select_node_type">Sélectionner le type de nœud à ajouter</string>
+    <string name="node_properties">Propriétés du nœud : %1$s</string>
+    <string name="close_inspector">Fermer l\'inspecteur</string>
+    <string name="node_title">Titre du nœud</string>
+    <string name="ussd_dial_code">Code de composition USSD</string>
+    <string name="step_input_option">Option de saisie d\'étape</string>
+    <string name="input_mode">Mode de saisie</string>
+    <string name="menu_option_number">Numéro d\'option de menu</string>
+    <string name="input_value_label">Valeur de saisie</string>
+    <string name="variable_name_label">Nom de la variable (Libellé d\'invite)</string>
+    <string name="variable_input_type">Type de saisie de variable</string>
+    <string name="manual_entry_timeout">Délai de saisie manuelle (Secondes)</string>
+    <string name="wait_delay_label">Délai d\'attente (Secondes)</string>
+    <string name="condition_match_regex">Regex de correspondance</string>
+    <string name="apply_properties">Appliquer les propriétés</string>
+    <string name="err_node_title_blank">Le titre du nœud ne peut pas être vide</string>
+    <string name="err_ussd_code_blank">Le code USSD ne peut pas être vide</string>
+    <string name="err_option_index_blank">L\'index de l\'option de menu ne peut pas être vide</string>
+    <string name="err_wait_duration_integer">La durée d\'attente doit être un entier valide</string>
+    <string name="err_variable_name_blank">Le nom de la variable ne peut pas être vide en mode de saisie</string>
+    <string name="err_input_value_blank">La valeur de saisie ne peut pas être vide en mode automatique</string>
+
+    <string name="sim_slot_title">Logement SIM par défaut</string>
+    <string name="sim_slot_subtitle">Choisissez le logement SIM par défaut pour les appels USSD automatisés, ou sélectionnez Demander à chaque fois pour choisir dynamiquement.</string>
+    <string name="sim_slot_sim1">Carte SIM 1</string>
+    <string name="sim_slot_sim2">Carte SIM 2</string>
+    <string name="sim_slot_ask">Demander à chaque fois</string>
+    <string name="sim_slot_dialog_desc">Sélectionnez une carte SIM pour exécuter ce flux USSD :</string>
+
+    <!-- Category Labels -->
+    <string name="category_mobile_money">Mobile Money</string>
+    <string name="category_bank">Banque</string>
+    <string name="category_airtime">Crédit d\'appel</string>
+    <string name="category_data">Forfaits internet</string>
+    <string name="category_utilities">Services publics</string>
+    <string name="category_custom">Personnalisé</string>
+
+    <!-- Node Type Titles & Descriptions -->
+    <string name="node_start_title">Nœud de départ</string>
+    <string name="node_start_desc">Démarre l\'exécution du flux USSD</string>
+    <string name="node_ussd_dial_title">Composition USSD</string>
+    <string name="node_ussd_dial_desc">Compose un code USSD (ex : *170#)</string>
+    <string name="node_menu_selection_title">Sélection de menu</string>
+    <string name="node_menu_selection_desc">Sélectionne une option dans le menu USSD</string>
+    <string name="node_input_value_title">Saisie de valeur</string>
+    <string name="node_input_value_desc">Entre un numéro de téléphone, montant ou PIN</string>
+    <string name="node_wait_title">Délai d\'attente</string>
+    <string name="node_wait_desc">Met en pause l\'exécution pour une durée définie</string>
+    <string name="node_decision_title">Règle de décision</string>
+    <string name="node_decision_desc">Oriente le flux en fonction du texte de réponse</string>
+    <string name="node_end_title">Nœud de fin</string>
+    <string name="node_end_desc">Termine la session USSD</string>
+
+    <!-- Input Mode & Variable Type -->
+    <string name="mode_automatic">Automatique</string>
+    <string name="mode_automatic_desc">Valeur fixe saisie automatiquement</string>
+    <string name="mode_input">Saisie</string>
+    <string name="mode_input_desc">Demander une saisie utilisateur avant le lancement</string>
+    <string name="mode_manual">Manuel</string>
+    <string name="mode_manual_desc">Attendre que l\'utilisateur saisisse manuellement à temps</string>
+
+    <string name="var_number">Nombre</string>
+    <string name="var_text">Lettres / Texte</string>
+    <string name="var_phone_contact">Contact téléphonique</string>
+
+    <!-- Execution Tuning -->
+    <string name="ussd_response_timeout">Délai d\'expiration de réponse USSD</string>
+    <string name="ussd_timeout_desc">Temps d\'attente maximum pour les réponses réseau ou boîtes de dialogue USSD</string>
+    <string name="automation_step_delay">Délai entre les étapes d\'automatisation</string>
+    <string name="step_delay_desc">Délai de pause entre l\'envoi des sélections de menu USSD consécutives</string>
+    <string name="auto_retry_attempts">Tentatives de réessai automatique</string>
+    <string name="retry_attempts_desc">Réessayer automatiquement en cas d\'expiration temporaire de la session</string>
+
+    <!-- Dialogs & Buttons -->
+    <string name="template_preview_title">Aperçu du modèle : %1$s</string>
+    <string name="ussd_entry_code_format">Code d\'entrée USSD : %1$s</string>
+    <string name="workflow_steps_format">Étapes du flux (%1$d) :</string>
+    <string name="clone_use_template">Cloner et utiliser le modèle</string>
+    <string name="system_notifications">Notifications système</string>
+    <string name="press_back_exit">Appuyez à nouveau sur Retour pour quitter</string>
+    <string name="exported_flow_json">JSON du flux exporté</string>
+    <string name="copied_to_clipboard">Copié dans le presse-papiers !</string>
+    <string name="copy_to_clipboard">Copier dans le presse-papiers</string>
+    <string name="import_flow_json_title">Importer le JSON de flux USSD</string>
+    <string name="unlock_vault">Déverrouiller le coffre-fort</string>
+    <string name="ussd_entry_code_readonly">Code d\'entrée USSD (Lecture seule)</string>
+    <string name="seconds_format">%1$d secondes</string>
+    <string name="milliseconds_format">%1$d ms</string>
+
+    <!-- Accessibility Disclosure -->
+    <string name="accessibility_disclosure_title">Divulgation du service d\'accessibilité</string>
+    <string name="accessibility_disclosure_intro">Fast Dial nécessite l\'accès au service d\'accessibilité d\'Android (\'Service d\'automatisation des flux USSD\') pour automatiser la navigation et les réponses dans les menus USSD.</string>
+    <string name="accessibility_disclosure_purpose_title">Pourquoi le service d\'accessibilité est requis :</string>
+    <string name="accessibility_disclosure_purpose_body">Les applications Android standard ne peuvent pas interagir directement avec les fenêtres pop-up USSD des opérateurs. Le service d\'accessibilité permet à Fast Dial d\'effectuer les actions strictement automatisées suivantes lors de l\'exécution d\'un flux :</string>
+    <string name="accessibility_disclosure_bullet1">• Lire le texte sur les fenêtres de dialogue USSD des opérateurs pour détecter les invites de menu.</string>
+    <string name="accessibility_disclosure_bullet2">• Saisir automatiquement les numéros de sélection de menu ou les paramètres utilisateur dans les champs de réponse USSD.</string>
+    <string name="accessibility_disclosure_bullet3">• Cliquer automatiquement sur le bouton \'Envoyer\' pour passer à l\'étape suivante de votre séquence d\'automatisation.</string>
+    <string name="accessibility_disclosure_privacy_title">Déclaration de confidentialité et de protection des données :</string>
+    <string name="accessibility_disclosure_privacy_body">• AUCUNE DONNÉE PERSONNELLE COLLECTÉE OU PARTAGÉE : Fast Dial NE collecte, N\'enregistre, NE stocke, NE transmet et NE partage aucune donnée personnelle, PIN, mot de passe, numéro de téléphone ou contenu d\'écran traité via le service d\'accessibilité.\n• EXÉCUTION STRICTEMENT LOCALE : Toutes les interactions d\'écran USSD sont traitées localement en temps réel sur votre appareil physique.\n• AUCUNE SURVEILLANCE EN ARRIÈRE-PLAN : Le service n\'agit que lorsque vous déclenchez explicitement un flux USSD.</string>
+    <string name="accessibility_disclosure_agree_button">Accepter et activer dans les Paramètres</string>
+    <string name="accessibility_disclosure_deny_button">Refuser</string>
+
+    <!-- Settings & Disclosure Additional Strings -->
+    <string name="accessibility_service_disclosure">Divulgation du service d\'accessibilité</string>
+    <string name="accessibility_service_active">Service d\'accessibilité : Actif</string>
+    <string name="accessibility_service_inactive">Service d\'accessibilité : Inactif</string>
+    <string name="view_disclosure">Voir divulgation</string>
+    <string name="rate_app_google_play">Évaluer l\'application sur Google Play</string>
+    <string name="check_for_updates">Vérifier les mises à jour</string>
+    <string name="system_announcements">Annonces système</string>
+    <string name="ussd_flow_configuration">Configuration du flux USSD</string>
+
+    <!-- Dialogs & Contacts -->
+    <string name="rating_dialog_title">Aimez-vous %1$s ?</string>
+    <string name="rating_dialog_desc">Vos retours nous aident à améliorer %1$s ! Prenez un instant pour nous évaluer sur le Google Play Store.</string>
+    <string name="rating_dialog_positive">Oui, j\'adore ! ⭐</string>
+    <string name="rating_dialog_close">Fermer</string>
+    <string name="update_available_title">Mise à jour disponible</string>
+    <string name="update_now">Mettre à jour</string>
+    <string name="update_later">Plus tard</string>
+    <string name="select_contact">SÉLECTIONNER UN CONTACT</string>
+    <string name="pick_contact">Choisir un contact</string>
+    <string name="device_contacts">Contacts de l\'appareil</string>
+    <string name="no_recent_contacts">Aucun contact récent sélectionné</string>
+    <string name="recently_used_contacts">CONTACTS RÉCEMMENT UTILISÉS</string>
+</resources>

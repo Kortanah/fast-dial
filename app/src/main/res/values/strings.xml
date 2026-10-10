@@ -1,0 +1,352 @@
+<resources>
+    <string name="app_name">Fast Dial</string>
+    <string name="accessibility_service_description">Automates multi-step USSD menu interactions for flows created in Fast Dial.</string>
+
+    <!-- Navigation & General -->
+    <string name="nav_home">Home</string>
+    <string name="nav_library">Flow Library</string>
+    <string name="nav_templates">Templates</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Dashboard -->
+    <string name="welcome_back">Welcome back,</string>
+    <string name="overview_grid">Overview</string>
+    <string name="active_flows">ACTIVE FLOWS</string>
+    <string name="todays_runs">TODAY\'S RUNS</string>
+    <string name="most_used_flows">Most Used Flows</string>
+    <string name="recent_flows">Recent Flows</string>
+    <string name="see_all">See All (%1$d)</string>
+    <string name="predefined_templates">Predefined Flow Templates</string>
+    <string name="browse_templates">Browse Templates</string>
+    <string name="create_flow">Create Flow</string>
+    <string name="select_network">Select Network</string>
+    <string name="no_network_available">No Network Available</string>
+    <string name="agent_operations">Agent Operations</string>
+    <string name="subscriber_operations">Subscriber Operations</string>
+    <string name="role_agent">Agent</string>
+    <string name="role_subscriber">Subscriber</string>
+    <string name="role_default">Default</string>
+    <string name="user_role_label">Account Role</string>
+    <string name="network_label">Network</string>
+    <string name="network_placeholder">e.g. MTN, Telecel, AirtelTigo, Orange</string>
+    <string name="target_role_label">Target Role</string>
+    <string name="no_role_flows_found">No %1$s operations found</string>
+    <string name="no_role_flows_subtitle">Create a flow for %1$s or select a different network filter.</string>
+
+    <!-- Flow Library -->
+    <string name="flow_library_title">USSD Flow Library</string>
+    <string name="search_placeholder">Search...</string>
+    <string name="filter_all">All</string>
+    <string name="no_flows_found">No flows matched your search.</string>
+    <string name="no_flows_subtitle">Try clearing filters or create a new flow.</string>
+
+    <!-- Templates -->
+    <string name="flow_templates_title">Flow Templates</string>
+    <string name="preconfigured_workflows">Pre-configured USSD workflows</string>
+    <string name="country_region">Country Region:</string>
+    <string name="preview">Preview</string>
+    <string name="use_template">Use Template</string>
+    <string name="search_template">Search template...</string>
+    <string name="close">Close</string>
+
+    <!-- Actions & Options -->
+    <string name="execute_flow">Execute Flow</string>
+    <string name="edit_builder">Edit Builder</string>
+    <string name="duplicate">Duplicate</string>
+    <string name="delete_flow">Delete Flow</string>
+    <string name="runs_count">%1$d runs</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Application Settings</string>
+    <string name="language_section">Language / Langue</string>
+    <string name="language_label">App Language</string>
+    <string name="language_subtitle">Choose your preferred default language for the application</string>
+    <string name="language_english">English (🇬🇧)</string>
+    <string name="language_french">Français (🇫🇷)</string>
+    <string name="language_active_default">Default application language</string>
+    <string name="security_title">Security &amp; Privacy</string>
+    <string name="auto_vault_label">Auto-Vault Sensitive Data</string>
+    <string name="appearance_title">Appearance</string>
+    <string name="dark_mode_label">Dark Mode</string>
+    <string name="settings_account">Account</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="security_section">Security</string>
+    <string name="security_notice">Important Security Notice: Never save your PIN or password inside USSD flows as part of your workflow.</string>
+    <string name="appearance_section">Appearance</string>
+    <string name="dark_theme">Dark Theme</string>
+    <string name="dark_theme_active">Dark theme active</string>
+    <string name="light_theme_active">Light theme active</string>
+    <string name="system_default_theme_active">System default theme active</string>
+    <string name="execution_tuning">Execution Engine Tuning</string>
+    <string name="default_timeout">Default Execution Timeout: %1$ds</string>
+    <string name="backup_portability">Backup &amp; Portability</string>
+    <string name="backup_subtitle">Transfer flows to a new device or backup your custom workflows.</string>
+    <string name="export_flows">Export Flows</string>
+    <string name="import_flows">Import Flows</string>
+    <string name="support_info">Support &amp; Information</string>
+    <string name="help_center">USSD Automation Help Center &amp; Guide</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="about_app">About App (v1.0)</string>
+    <string name="set_master_pin">Set 4-Digit Master PIN</string>
+    <string name="enter_pin">Enter 4-Digit PIN</string>
+    <string name="save_pin">Save PIN</string>
+    <string name="cancel">Cancel</string>
+    <string name="ussd_automation_guide">How to Build a USSD Flow</string>
+    <string name="guide_intro">How to create and execute USSD Automations step-by-step:</string>
+    <string name="guide_step1">1. Dial Shortcode (e.g., *170#): Opens your network operator\'s main USSD menu.</string>
+    <string name="guide_step2">2. Automated Menu Selection (e.g., Option 1): Automatically enters a numeric menu option (for example, \'1\' for Transfer or \'2\' for Airtime).</string>
+    <string name="guide_step3">3. Manual (Menu Selection): Pauses execution to allow manual interaction or selecting menu choices directly on screen.</string>
+    <string name="guide_step4">4. Dynamic User Input: Prompts for recipient phone numbers, transaction amounts, or custom reference details when running the flow.</string>
+    <string name="guide_step5">5. Secure PIN Input: Automatically or securely handles PIN entries for authorization during transfers.</string>
+    <string name="got_it">Got it</string>
+    <string name="contact_support">Contact Support</string>
+    <string name="contact_prompt">Need help or have questions regarding your USSD automations?</string>
+    <string name="support_email">Email: stainstudios360@gmail.com</string>
+    <string name="support_availability">Our support team is available 24/7 to assist with flow setup and carrier compatibility.</string>
+    <string name="about_ussd_automation">About USSD Automation (v1.0)</string>
+    <string name="about_ussd_body">USSD Automation is a workflow automation engine for Android designed to streamline shortcode interactions.\n\nIt enables users to automate mobile money transfers, data bundle purchases, banking services, and account balance checks effortlessly with automated step execution and customizable templates.</string>
+    <string name="export_workflows">Export Workflows</string>
+    <string name="export_prompt">Copy the backup data below to transfer your custom USSD workflows to another device, or download it as a JSON file:</string>
+    <string name="download_json_file">Download JSON File</string>
+    <string name="copy_code">Copy Code</string>
+    <string name="import_workflows">Import Workflows</string>
+    <string name="import_prompt">Upload a backup JSON file or paste the backup JSON text below to import custom workflows to your device:</string>
+    <string name="upload_json_file">Upload JSON File</string>
+    <string name="paste_json_placeholder">Or paste JSON here...</string>
+    <string name="import_button_text">Import</string>
+    <string name="delete_account_title">Delete Account</string>
+    <string name="delete_account_confirmation">Are you sure you want to delete your account? This action cannot be undone.</string>
+    <string name="delete">Delete</string>
+
+    <!-- Create Flow Screen & USSD Guide -->
+    <string name="create_new_flow_title">Create New USSD Flow</string>
+    <string name="flow_name_label">Flow Name</string>
+    <string name="flow_name_placeholder">e.g., Electricity Bill Payment</string>
+    <string name="ussd_entry_code_label">USSD Entry Code</string>
+    <string name="ussd_entry_code_placeholder">e.g., *170#</string>
+    <string name="category_label">Category</string>
+    <string name="custom_category_name_label">Custom Category Name</string>
+    <string name="custom_category_placeholder">e.g. Banking, Transport, Cable TV</string>
+    <string name="error_empty_flow_name">Flow Name cannot be empty.</string>
+    <string name="save_draft_button">Save Draft</string>
+    <string name="continue_button">Continue</string>
+    <string name="how_to_build_title">How to Build a USSD Flow</string>
+    <string name="how_to_build_intro">How to create and execute USSD Automations step-by-step:</string>
+    <string name="how_to_build_step1">1. Dial Shortcode (e.g., *170#): Opens your network operator\'s main USSD menu.</string>
+    <string name="how_to_build_step2">2. Automated Menu Selection (e.g., Option 1): Automatically enters a numeric menu option (for example, \'1\' for Transfer or \'2\' for Airtime).</string>
+    <string name="how_to_build_step3">3. Manual (Menu Selection): Pauses execution to allow manual interaction or selecting menu choices directly on screen.</string>
+    <string name="how_to_build_step4">4. Dynamic User Input: Prompts for recipient phone numbers, transaction amounts, or custom reference details when running the flow.</string>
+    <string name="how_to_build_step5">5. Secure PIN Input: Automatically or securely handles PIN entries for authorization during transfers.</string>
+    <!-- Onboarding Screen -->
+    <string name="onboarding_title">Automate Your USSD Workflows</string>
+    <string name="onboarding_description">Create smart USSD automation flows that save time and eliminate repetitive dialing.</string>
+    <string name="get_started_button">Get Started</string>
+    <string name="already_have_account_sign_in">Already have an account? Sign In</string>
+    <!-- Google Auth & Single Sign-On -->
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="or_divider">or continue with email</string>
+    <string name="onboarding_profile_title">Complete Your Profile</string>
+    <string name="onboarding_profile_subtitle">Welcome to Fast Dial! Just a few quick details to personalize your USSD automations.</string>
+    <string name="signed_in_as">Signed in as: %1$s</string>
+    <string name="complete_setup_button">Complete Setup &amp; Get Started</string>
+    <string name="switch_account_or_sign_out">Sign out / Use another account</string>
+    <string name="unified_login_hint">Sign in with Google or enter your email to get started instantly.</string>
+    <string name="default_web_client_id" translatable="false">288591094371-v97g5psrac19qjete2sev2ijer207ci1.apps.googleusercontent.com</string>
+    <!-- Login Screen -->
+    <string name="login_welcome_title">Welcome Back</string>
+    <string name="login_welcome_subtitle">Sign in to access your USSD flow vault</string>
+    <string name="email_address_label">Email Address</string>
+    <string name="password_label">Password</string>
+    <string name="remember_me_label">Remember Me</string>
+    <string name="forgot_password_label">Forgot Password?</string>
+    <string name="error_invalid_credentials">Please enter valid credentials</string>
+    <string name="error_invalid_email">Please enter a valid email address</string>
+    <string name="error_auth_failed">Authentication failed</string>
+    <string name="sign_in_button">Sign In</string>
+    <string name="create_new_account_button">Create New Account</string>
+    <!-- Register Screen -->
+    <string name="register_title">Create Account</string>
+    <string name="register_subtitle">Join us and start automating your workflows</string>
+    <string name="full_name_label">Full Name</string>
+    <string name="confirm_password_label">Confirm Password</string>
+    <string name="terms_agreement_label">I agree to the Terms of Service &amp; Privacy Policy</string>
+    <string name="error_passwords_dont_match">Passwords do not match</string>
+    <string name="error_enter_name">Please enter your name</string>
+    <string name="error_password_too_short">Password must be at least 6 characters</string>
+    <string name="error_registration_failed">Registration failed</string>
+    <string name="error_fill_all_fields">Please fill in all fields</string>
+    <string name="error_invalid_phone_number">Please enter a valid phone number</string>
+    <string name="sign_up_button">Sign Up</string>
+    <!-- Splash Screen -->
+    <string name="splash_subtitle">Automate USSD Processes Easily</string>
+    <!-- Execution Screen & Contacts -->
+    <!-- Prominent Accessibility Service Disclosure -->
+    <string name="accessibility_disclosure_title">Accessibility Service Disclosure</string>
+    <string name="accessibility_disclosure_intro">Fast Dial requires access to Android\'s Accessibility Service (\'USSD Flow Automation Service\') to automate USSD menu navigation and responses.</string>
+    <string name="accessibility_disclosure_purpose_title">Why Accessibility Service is Required:</string>
+    <string name="accessibility_disclosure_purpose_body">Standard Android applications cannot interact directly with carrier USSD system pop-ups. The Accessibility Service allows Fast Dial to perform the following strictly automated actions during flow execution:</string>
+    <string name="accessibility_disclosure_bullet1">• Read text on carrier USSD dialog windows to detect menu prompts.</string>
+    <string name="accessibility_disclosure_bullet2">• Automatically input menu selection numbers or user parameters into USSD response fields.</string>
+    <string name="accessibility_disclosure_bullet3">• Automatically click the \'Send\' button to proceed to the next step in your automation sequence.</string>
+    <string name="accessibility_disclosure_privacy_title">Privacy &amp; Data Protection Declaration:</string>
+    <string name="accessibility_disclosure_privacy_body">• LOCAL EXECUTION &amp; LOGGING: USSD screen content and entered values (such as recipient numbers and transaction amounts) are temporarily processed in real time and may be locally logged in the app\'s execution history on your device for your own reference.\n• NEVER TRANSMITTED EXTERNALLY: All execution history and processed data remain strictly on-device and are never transmitted to or shared with any external server or third party.\n• NO BACKGROUND SURVEILLANCE: The Accessibility Service is only active during explicitly user-triggered USSD flow runs and does not monitor background activity.</string>
+    <string name="accessibility_disclosure_agree_button">Agree &amp; Enable in Settings</string>
+    <string name="accessibility_disclosure_deny_button">Decline</string>
+
+    <string name="entry_code_label">Entry: %1$s</string>
+    <string name="exec_accessibility_inactive">Accessibility Service Inactive</string>
+    <string name="exec_accessibility_desc">Enable \'USSD Flow Automation Service\' in Android Settings. Note: Some phones (Tecno, Infinix, Xiaomi) disable accessibility when swiped away. Lock app in Recents or enable Auto-start in phone settings to prevent this.</string>
+    <string name="enable_button">Enable</string>
+    <string name="required_flow_inputs">Required Flow Inputs</string>
+    <string name="provide_values_desc">Provide values for variable steps before running the flow:</string>
+    <string name="hint_amount_or_number">Enter amount or number (e.g., 50)</string>
+    <string name="hint_phone_number">Enter phone number</string>
+    <string name="hint_text_value">Enter text value</string>
+    <string name="flow_running">Flow Running...</string>
+    <string name="stop_button">Stop</string>
+    <string name="run_flow_button">Run Flow</string>
+    <string name="error_fill_required_inputs">Please fill in all required inputs: %1$s</string>
+    <string name="phone_contacts_title">Phone Contacts</string>
+    <string name="contacts_permission_required">Contacts Permission Required</string>
+    <string name="contacts_permission_desc">To select numbers directly from your phone book, please allow access to your device contacts.</string>
+    <string name="grant_contacts_permission">Grant Contacts Permission</string>
+    <string name="search_contact_placeholder">Search contact</string>
+    <string name="recent_contacts">Recent Contacts</string>
+    <string name="all_contacts">All Contacts</string>
+    <string name="no_contacts_matching">No contacts matching %1$s</string>
+    <string name="no_contacts_found">No contacts found on device.</string>
+    <!-- Approval Pending Screen -->
+    <string name="approval_pending_title">Account Pending Approval</string>
+    <string name="approval_pending_desc">Your account has been registered successfully, but it needs to be approved by an administrator before you can use the app.</string>
+    <string name="logout_button">Logout</string>
+    <!-- Reset Password Screen -->
+    <string name="phone_label">Phone Number</string>
+    <string name="reset_password_title">Reset Password</string>
+    <string name="reset_password_desc">Enter your registered email to receive a secure password reset link</string>
+    <string name="error_failed_send_reset">Failed to send reset link</string>
+    <string name="instructions_sent_toast">Reset link sent!</string>
+    <string name="instructions_sent_message">Password reset instructions sent to %1$s</string>
+    <string name="send_reset_link_button">Send Reset Link</string>
+    <string name="back_to_sign_in_button">Back to Sign In</string>
+    <!-- Flow Builder / Sequence Page -->
+    <string name="save_flow">Save Flow</string>
+    <string name="flow_step_sequence">Flow Step Sequence</string>
+    <string name="steps_count">%1$d Steps</string>
+    <string name="select_node_type">Select Node Type to Add</string>
+    <string name="node_properties">Node Properties: %1$s</string>
+    <string name="close_inspector">Close Inspector</string>
+    <string name="node_title">Node Title</string>
+    <string name="ussd_dial_code">USSD Dial Code</string>
+    <string name="step_input_option">Step Input Option</string>
+    <string name="input_mode">Input Mode</string>
+    <string name="menu_option_number">Menu Option Number</string>
+    <string name="input_value_label">Input Value</string>
+    <string name="variable_name_label">Variable Name (Prompt Label)</string>
+    <string name="variable_input_type">Variable Input Type</string>
+    <string name="manual_entry_timeout">Manual Entry Timeout (Seconds)</string>
+    <string name="wait_delay_label">Wait Delay (Seconds)</string>
+    <string name="condition_match_regex">Condition Match Regex</string>
+    <string name="apply_properties">Apply Properties</string>
+    <string name="err_node_title_blank">Node title cannot be blank</string>
+    <string name="err_ussd_code_blank">USSD code cannot be blank</string>
+    <string name="err_option_index_blank">Menu option index cannot be blank</string>
+    <string name="err_wait_duration_integer">Wait duration must be a valid integer</string>
+    <string name="err_variable_name_blank">Variable name cannot be blank when Input Mode is selected</string>
+    <string name="err_input_value_blank">Input value cannot be blank when Automatic Mode is selected</string>
+
+    <string name="sim_slot_title">Default SIM Slot</string>
+    <string name="sim_slot_subtitle">Choose default SIM slot for automated USSD calling, or select Ask Every Time to choose dynamically.</string>
+    <string name="sim_slot_sim1">SIM 1</string>
+    <string name="sim_slot_sim2">SIM 2</string>
+    <string name="sim_slot_ask">Ask Every Time</string>
+    <string name="sim_slot_dialog_desc">Select a SIM card to run this USSD flow:</string>
+
+    <!-- Category Labels -->
+    <string name="category_mobile_money">Mobile Money</string>
+    <string name="category_bank">Bank</string>
+    <string name="category_airtime">Airtime</string>
+    <string name="category_data">Data Bundles</string>
+    <string name="category_utilities">Utilities</string>
+    <string name="category_custom">Custom</string>
+
+    <!-- Node Type Titles & Descriptions -->
+    <string name="node_start_title">Start Node</string>
+    <string name="node_start_desc">Initiates the USSD workflow execution</string>
+    <string name="node_ussd_dial_title">USSD Dial</string>
+    <string name="node_ussd_dial_desc">Dials a USSD code (e.g., *170#)</string>
+    <string name="node_menu_selection_title">Menu Selection</string>
+    <string name="node_menu_selection_desc">Selects an option from USSD menu</string>
+    <string name="node_input_value_title">Input Value</string>
+    <string name="node_input_value_desc">Enters phone number, amount, or PIN</string>
+    <string name="node_wait_title">Wait Delay</string>
+    <string name="node_wait_desc">Pauses execution for a set duration</string>
+    <string name="node_decision_title">Decision Rule</string>
+    <string name="node_decision_desc">Branches flow based on response text</string>
+    <string name="node_end_title">End Node</string>
+    <string name="node_end_desc">Terminates the USSD session</string>
+
+    <!-- Input Mode & Variable Type -->
+    <string name="mode_automatic">Automatic</string>
+    <string name="mode_automatic_desc">Fixed auto-entered value</string>
+    <string name="mode_input">Input</string>
+    <string name="mode_input_desc">Prompt user for input before run</string>
+    <string name="mode_manual">Manual</string>
+    <string name="mode_manual_desc">Wait for user to manually enter in time</string>
+
+    <string name="var_number">Number</string>
+    <string name="var_text">Letter / Text</string>
+    <string name="var_phone_contact">Phone Contact</string>
+
+    <!-- Execution Tuning -->
+    <string name="ussd_response_timeout">USSD Response Timeout</string>
+    <string name="ussd_timeout_desc">Maximum waiting time for network or USSD dialog responses</string>
+    <string name="automation_step_delay">Automation Step Delay</string>
+    <string name="step_delay_desc">Pause delay between sending consecutive USSD menu selections</string>
+    <string name="auto_retry_attempts">Auto Retry Attempts</string>
+    <string name="retry_attempts_desc">Automatically retry on temporary session timeout</string>
+
+    <!-- Dialogs & Buttons -->
+    <string name="template_preview_title">Template Preview: %1$s</string>
+    <string name="ussd_entry_code_format">USSD Entry Code: %1$s</string>
+    <string name="workflow_steps_format">Workflow Steps (%1$d):</string>
+    <string name="clone_use_template">Clone &amp; Use Template</string>
+    <string name="system_notifications">System Notifications</string>
+    <string name="press_back_exit">Press back again to exit</string>
+    <string name="exported_flow_json">Exported Flow JSON</string>
+    <string name="copied_to_clipboard">Copied to clipboard!</string>
+    <string name="copy_to_clipboard">Copy to Clipboard</string>
+    <string name="import_flow_json_title">Import USSD Flow JSON</string>
+    <string name="unlock_vault">Unlock Vault</string>
+    <string name="ussd_entry_code_readonly">USSD Entry Code (Read-Only)</string>
+    <string name="seconds_format">%1$d seconds</string>
+    <string name="milliseconds_format">%1$d ms</string>
+
+    <!-- Settings & Disclosure Additional Strings -->
+    <string name="accessibility_service_disclosure">Accessibility Service Disclosure</string>
+    <string name="accessibility_service_active">Accessibility Service: Active</string>
+    <string name="accessibility_service_inactive">Accessibility Service: Inactive</string>
+    <string name="view_disclosure">Disclosure</string>
+    <string name="rate_app_google_play">Rate App on Google Play</string>
+    <string name="check_for_updates">Check for App Updates</string>
+    <string name="system_announcements">System Announcements</string>
+    <string name="ussd_flow_configuration">USSD Flow Configuration</string>
+
+    <!-- Dialogs & Contacts -->
+    <string name="rating_dialog_title">Are you enjoying %1$s?</string>
+    <string name="rating_dialog_desc">Your feedback helps us make %1$s even better! Please take a moment to rate us on the Google Play Store.</string>
+    <string name="rating_dialog_positive">Yes, I Love It! ⭐</string>
+    <string name="rating_dialog_close">Close</string>
+    <string name="update_available_title">App Update Available</string>
+    <string name="update_now">Update Now</string>
+    <string name="update_later">Later</string>
+    <string name="select_contact">SELECT CONTACT</string>
+    <string name="pick_contact">Pick Contact</string>
+    <string name="device_contacts">Device Contacts</string>
+    <string name="no_recent_contacts">No recent contact selected</string>
+    <string name="recently_used_contacts">RECENTLY USED CONTACTS</string>
+    <string name="testing_role_switcher_title">Role Override (Testing / Debug)</string>
+    <string name="testing_role_switcher_desc">Temporarily switch effective role on device without modifying cloud data.</string>
+    <string name="effective_role_label">Current Effective Role:</string>
+    <string name="select_country_prompt">Select your operating country and region</string>
+</resources>
